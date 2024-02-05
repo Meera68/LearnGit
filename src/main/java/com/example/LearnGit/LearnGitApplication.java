@@ -13,9 +13,5 @@ public class LearnGitApplication {
 		SpringApplication.run(LearnGitApplication.class, args);
 	}
 
-	@Bean
-	public RestTemplate restTemplate()
-	{
-		return new RestTemplate();
-	}
+
 }
