@@ -13,7 +13,7 @@ public class Report {
     @Autowired
     ReportService reportService;
 
-    @PostMapping("/getTrade")
+    @PostMapping("/getTradeStatus")
     public TradeStatusResponse getReportByStatus(@RequestBody TradeStatusRequest tradeStatusRequest)
     {
         return reportService.getReportByStatus(tradeStatusRequest);

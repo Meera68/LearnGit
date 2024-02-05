@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 public class LearnGitApplication {
 
 	public static void main(String[] args) {
-        System.out.println("Hello Mayara");
+        System.out.println("Hello Mayara...!");
 		SpringApplication.run(LearnGitApplication.class, args);
 	}
 
